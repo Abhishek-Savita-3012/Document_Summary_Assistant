@@ -92,9 +92,9 @@ start index.html  # Windows <br>
 - Short (~50 words, only core ideas)
 - Medium (~150 words, main points)
 - Long (~300+ words, detailed explanation)
-<br><br>
+<br>
 4) Click Generate Summary
-<br><br>
+<br>
 5) View:
 - Extracted text in the left section
 - AI-generated summary in the right section
