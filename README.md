@@ -66,22 +66,22 @@ cd backend <br>
 python -m venv venv <br>
 source venv/bin/activate   # Mac/Linux <br>
 venv\Scripts\activate      # Windows <br>
-
+<br>
 -> pip install -r requirements.txt
-
--> Create a .env file inside backend/:
+<br>
+-> Create a .env file inside backend/: <br>
 GEMINI_API_KEY=your_gemini_api_key_here
-
+<br>
 -> Run Flask server:
 python app.py
-
+<br>
 -> Backend will start on → http://127.0.0.1:5000
 
 ### 3️⃣ Frontend Setup
 
-cd frontend
-open index.html   # Mac
-start index.html  # Windows
+cd frontend <br>
+open index.html   # Mac <br>
+start index.html  # Windows <br>
 
 ### 📖 Usage
 
@@ -99,9 +99,9 @@ start index.html  # Windows
 
 - Extracted text in the left section
 - AI-generated summary in the right section
-- Optionally download:
---- summary.txt
---- summary.pdf
+- Optionally download: <br>
+--- summary.txt <br>
+--- summary.pdf <br>
 
 ### 🔐 API Key Security
 
@@ -109,36 +109,24 @@ start index.html  # Windows
 - Flask securely calls Gemini API
 - Ensure .env is ignored in .gitignore (never commit it)
 
-### 🖼️ Screenshots (Optional)
-
-You can add screenshots of:
-
-Uploading a file
-
-Extracted text display
-
-Generated summary
-
-Download buttons
-
 ### 📦 Requirements
 
 - Python 3.8+
 - Node.js
 - Tesseract must be installed locally for OCR
-
+<br>
 -- Install Tesseract
-Windows -> 
+Windows -> <br>
 Download Installer
-
-Linux/macOS ->
-sudo apt-get install tesseract-ocr  # Debian/Ubuntu
-brew install tesseract              # macOS
+<br>
+Linux/macOS -> <br>
+sudo apt-get install tesseract-ocr  # Debian/Ubuntu <br>
+brew install tesseract              # macOS <br>
 
 ### 🚀 Deployment
 
 -> Frontend: Deploy on Netlify, Vercel, or GitHub Pages
-
+<br>
 -> Backend: Deploy on Heroku, Render, or Railway
 
 ### ✅ Deliverables
