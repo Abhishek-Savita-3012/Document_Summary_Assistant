@@ -66,7 +66,7 @@ cd backend <br>
 python -m venv venv <br>
 source venv/bin/activate   # Mac/Linux <br>
 venv\Scripts\activate      # Windows <br>
-<br><br>
+<br>
 - pip install -r requirements.txt
 <br><br>
 - Create a .env file inside backend/: <br>
