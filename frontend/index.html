@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Summary Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <h1><i class="fa-solid fa-file"></i> Document Summary Assistant</h1>
+  </header>
+
+  <main>
+    <section id="upload">
+      <h2>Upload Your Document</h2>
+      <div id="drop-zone">Drag & Drop PDF/Image Here or Click Below</div>
+      <input type="file" id="fileInput" accept=".pdf,image/*">
+    </section>
+
+    <section id="textSection">
+      <h2>Extracted Text</h2>
+      <pre id="extractedText">No text extracted yet...</pre>
+    </section>
+
+    <section id="summarySection">
+      <h2>Summary</h2>
+      <label for="summaryLength">Choose length:</label>
+      <select id="summaryLength">
+        <option value="short">Short</option>
+        <option value="medium">Medium</option>
+        <option value="long">Long</option>
+      </select>
+      <button id="generateSummary">Generate Summary</button>
+      <pre id="summaryOutput">Your summary will appear here...</pre>
+
+      <div id="downloadSection">
+        <button id="downloadTxt"><i class="fa-solid fa-circle-down"></i> Download as TXT</button>
+        <button id="downloadPdf"><i class="fa-solid fa-circle-down"></i> Download as PDF</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Abhishek Savita | 2025</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
