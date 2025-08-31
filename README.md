@@ -18,6 +18,7 @@ This project demonstrates:
 ---
 
 ## 📂 Project Structure
+<prev>
 document-summary-assistant/
 │── backend/
 │ ├── app.py # Flask backend API
@@ -30,6 +31,7 @@ document-summary-assistant/
 │ ├── script.js # Client-side logic
 │
 │── README.md # Documentation
+</prev>
 
 ## ⚙️ Tech Stack
 
@@ -55,15 +57,15 @@ document-summary-assistant/
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/document-summary-assistant.git
-cd document-summary-assistant
+git clone https://github.com/your-username/document-summary-assistant.git <br>
+cd document-summary-assistant<br>
 
 ### 2️⃣ Backend Setup
 
-cd backend
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+cd backend <br>
+python -m venv venv <br>
+source venv/bin/activate   # Mac/Linux <br>
+venv\Scripts\activate      # Windows <br>
 
 -> pip install -r requirements.txt
 
