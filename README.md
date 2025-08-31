@@ -92,11 +92,11 @@ start index.html  # Windows <br>
 - Short (~50 words, only core ideas)
 - Medium (~150 words, main points)
 - Long (~300+ words, detailed explanation)
-
+<br><br>
 4) Click Generate Summary
-
+<br><br>
 5) View:
-
+<br><br>
 - Extracted text in the left section
 - AI-generated summary in the right section
 - Optionally download: <br>
@@ -114,11 +114,11 @@ start index.html  # Windows <br>
 - Python 3.8+
 - Node.js
 - Tesseract must be installed locally for OCR
-<br>
+<br><br>
 -- Install Tesseract
 Windows -> <br>
 Download Installer
-<br>
+<br><br>
 Linux/macOS -> <br>
 sudo apt-get install tesseract-ocr  # Debian/Ubuntu <br>
 brew install tesseract              # macOS <br>
