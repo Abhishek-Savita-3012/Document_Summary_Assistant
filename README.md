@@ -18,7 +18,7 @@ This project demonstrates:
 ---
 
 ## 📂 Project Structure
-<prev>
+<pre>
 document-summary-assistant/
 │── backend/
 │ ├── app.py # Flask backend API
@@ -31,7 +31,7 @@ document-summary-assistant/
 │ ├── script.js # Client-side logic
 │
 │── README.md # Documentation
-</prev>
+</pre>
 
 ## ⚙️ Tech Stack
 
@@ -57,7 +57,7 @@ document-summary-assistant/
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/document-summary-assistant.git <br>
+git clone https://github.com/Abhishek-Savita-3012/document-summary-assistant.git <br>
 cd document-summary-assistant<br>
 
 ### 2️⃣ Backend Setup
@@ -148,6 +148,10 @@ brew install tesseract              # macOS
 - Hosted URL (optional)
 - This README
 
-### 🏆 Author
+### 🙋‍♂️ Author
+Abhishek Savita
+GitHub: @Abhishek-Savita-3012
 
-Built by Abhishek Savita
+### 📄 License
+This project is licensed under the MIT License
+
