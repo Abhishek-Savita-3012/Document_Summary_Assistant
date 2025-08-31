@@ -66,16 +66,16 @@ cd backend <br>
 python -m venv venv <br>
 source venv/bin/activate   # Mac/Linux <br>
 venv\Scripts\activate      # Windows <br>
-<br>
--> pip install -r requirements.txt
-<br>
--> Create a .env file inside backend/: <br>
+<br><br>
+- pip install -r requirements.txt
+<br><br>
+- Create a .env file inside backend/: <br>
 GEMINI_API_KEY=your_gemini_api_key_here
-<br>
--> Run Flask server:
+<br><br>
+- Run Flask server:
 python app.py
-<br>
--> Backend will start on → http://127.0.0.1:5000
+<br><br>
+- Backend will start on → http://127.0.0.1:5000
 
 ### 3️⃣ Frontend Setup
 
@@ -96,12 +96,11 @@ start index.html  # Windows <br>
 4) Click Generate Summary
 <br><br>
 5) View:
-<br><br>
 - Extracted text in the left section
 - AI-generated summary in the right section
-- Optionally download: <br>
---- summary.txt <br>
---- summary.pdf <br>
+- Optionally download: <br><br>
+    - summary.txt <br>
+    - summary.pdf <br>
 
 ### 🔐 API Key Security
 
@@ -116,10 +115,10 @@ start index.html  # Windows <br>
 - Tesseract must be installed locally for OCR
 <br><br>
 -- Install Tesseract
-Windows -> <br>
+Windows : <br>
 Download Installer
 <br><br>
-Linux/macOS -> <br>
+Linux/macOS : <br>
 sudo apt-get install tesseract-ocr  # Debian/Ubuntu <br>
 brew install tesseract              # macOS <br>
 
